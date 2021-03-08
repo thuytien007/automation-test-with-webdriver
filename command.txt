@@ -1,0 +1,17 @@
+$npm init
+$npm install webdriverio --save-dev
+$npm install @wdio/cli
+
+$./node_modules/.bin/wdio config (vao day de cau hinh)
+>on my local machine
+>mocha
+>sync
+>enter qua
+>chon spec, allure, html
+>chon selenium-standalone, chromdriver
+>chổ url: bỏ địa chỉ trang web cần test vô
+cài xong sẽ có file wdio.config.js xuất hiện
+
+>npm install chai --save-dev
+>npm install chai-webdriverio --save-dev
+>npm install local-runner --save-dev
